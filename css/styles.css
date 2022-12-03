@@ -1,0 +1,125 @@
+:root { 
+   --main-color: #2E2F42;
+   --bgc-main: #2E2F42;
+   --primary-font:'Roboto', sans-serif;
+   
+}
+.list{
+   list-style: none
+}
+.link{
+   text-decoration: none;
+}
+body{
+   
+font-family: var(--primary-font);
+font-weight: 400;
+color: var(--main-color);
+}
+/* LOGO */
+.logo{
+   font-family: 'Raleway' , sans-serif;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 1.33;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--main-color);
+}
+.logo .web{
+color: #4D5AE5;
+}
+
+/* MENU */
+.menu-link{ 
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--main-color);
+}
+.menu-link:hover,
+.menu-link:focus{
+   color:#4D5AE5;
+}
+/* CONTACTS */
+.contacts{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;
+}
+.contacts:hover,
+.contacts:focus{
+   color: #4D5AE5;
+}
+
+  /* HERO */
+.hero{
+   background-color: var(--bgc-main);
+}
+.main-title{
+      font-weight: 600;
+      font-size: 56px;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+   
+}
+.hero-button{
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 1.19;
+      letter-spacing: 0.04em;
+   color: #FFFFFF;
+   background-color:#4D5AE5;
+   cursor: pointer;
+}
+
+.secondary-title{
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 1.11;
+      letter-spacing: 0.02em;
+      color: var(--main-color);
+}
+.subtitle{
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.2;
+   color: var(--main-color);
+}
+.text-title{
+      font-size: 16px;
+      line-height: 1.5px;
+      letter-spacing: 0.02em;
+      color: #434455;
+}
+/* FILTER BUTTON */
+.filter-button{
+      font-weight: 600;
+      font-size: 16px;
+      line-height:1.5;
+      letter-spacing: 0.04em;
+      color: #4D5AE5;
+      background: #F4F4FD;
+      cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus{
+   background: #4D5AE5;
+   color: #FFFFFF;
+}
+/* Footer */
+.footer{
+   background-color: var(--bgc-main);
+}
+.footer-text{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #E7E9FC;
+}
+.logo-fone-dark{
+   color: #F4F4FD;
+}
