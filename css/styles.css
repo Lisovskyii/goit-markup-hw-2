@@ -2,7 +2,21 @@
    --main-color: #2E2F42;
    --bgc-main: #2E2F42;
    --primary-font:'Roboto', sans-serif;
+   --primary-font-weight:500;
    
+}
+.visually-hidden{
+   position:absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
 }
 .list{
    list-style: none
@@ -19,7 +33,7 @@ color: var(--main-color);
 /* LOGO */
 .logo{
    font-family: 'Raleway' , sans-serif;
-      font-weight: 900;
+      font-weight:700;
       font-size: 18px;
       line-height: 1.33;
       letter-spacing: 0.03em;
@@ -32,7 +46,7 @@ color: #4D5AE5;
 
 /* MENU */
 .menu-link{ 
-      font-weight: 600;
+      font-weight: var(--primary-font-weight);
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
@@ -59,7 +73,7 @@ color: #4D5AE5;
    background-color: var(--bgc-main);
 }
 .main-title{
-      font-weight: 600;
+      font-weight: var(--primary-font-weight);
       font-size: 56px;
       line-height: 1.07;
       letter-spacing: 0.02em;
@@ -67,7 +81,7 @@ color: #4D5AE5;
    
 }
 .hero-button{
-      font-weight: 600;
+      font-weight: var(--primary-font-weight);
       font-size: 16px;
       line-height: 1.19;
       letter-spacing: 0.04em;
@@ -77,14 +91,14 @@ color: #4D5AE5;
 }
 
 .secondary-title{
-      font-weight: 600;
+      font-weight: var(--primary-font-weight);
       font-size: 36px;
       line-height: 1.11;
       letter-spacing: 0.02em;
       color: var(--main-color);
 }
 .subtitle{
-      font-weight: 600;
+      font-weight: var(--primary-font-weight);
       font-size: 20px;
       line-height: 1.2;
    color: var(--main-color);
@@ -97,7 +111,7 @@ color: #4D5AE5;
 }
 /* FILTER BUTTON */
 .filter-button{
-      font-weight: 600;
+      font-weight: var(--primary-font-weight);
       font-size: 16px;
       line-height:1.5;
       letter-spacing: 0.04em;
